@@ -1,0 +1,29 @@
+# Predviđanje cena polovnih automobila (Car Price Prediction)
+
+Mašinsko učenje za automatsku procenu tržišne vrednosti automobila na osnovu karakteristika vozila.
+
+## 📁 Struktura projekta
+```text
+car-price-prediction/
+│
+├── data/
+│   ├── cars.csv               # Sirovi podaci
+│   ├── cleaned_cars.csv       # Očišćeni podaci
+│   └── features_cars.csv      # Podaci sa kreiranim karakteristikama
+│
+├── models/
+│   └── car_price_model.joblib # Sačuvani finalni model (Random Forest)
+│
+├── notebooks/
+│   └── 01_eda.ipynb           # Eksplorativna analiza podataka (EDA)
+│
+├── src/
+│   ├── data_cleaning.py       # Skript za čišćenje podataka
+│   ├── feature_engineering.py # Skript za inženjering karakteristika
+│   ├── data_preprocessing.py  # Skript za pretprocesiranje i pipeline
+│   ├── model_training.py      # Skript za treniranje modela
+│   ├── model_evaluation.py    # Skript za evaluaciju i metrike
+│   └── model_comparison.py    # Skript za poređenje više algoritama
+│
+├── requirements.txt           # Potrebne Python biblioteke
+└── README.md                  # Dokumentacija projekta
